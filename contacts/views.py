@@ -33,7 +33,7 @@ def contact(request):
             [realtor_email, 'guldmytro@gmail.com'],
             fail_silently=False
         )
-        messages.success(request, 'Done')
+        messages.success(request, 'Thank your for your inquiry!')
         return redirect('/listings/' + listing_id)
 
 
